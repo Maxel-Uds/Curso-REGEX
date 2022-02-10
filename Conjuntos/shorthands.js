@@ -3,7 +3,7 @@ f_g`;
 
 // Acha apenas os digítos do texto
 console.log(texto.match(/\d/g));
-// Acha todos os caracteres que não são digítos no texto
+// Acha todos os elementos que não são digítos no texto
 console.log(texto.match(/\D/g).join());
 // Corresponde ao conjunto [a-zA-Z0-9]
 console.log(texto.match(/\w/g));
