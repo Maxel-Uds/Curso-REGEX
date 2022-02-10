@@ -5,7 +5,7 @@ f_g`;
 console.log(texto.match(/\d/g));
 // Acha todos os elementos que não são digítos no texto
 console.log(texto.match(/\D/g).join());
-// Corresponde ao conjunto [a-zA-Z0-9]
+// Corresponde ao conjunto [a-zA-Z0-9] (não cobre caracteres acentuados)
 console.log(texto.match(/\w/g));
 // Acha todos os elementos que não são caracteres nem digítos no texto
 console.log(texto.match(/\W/g));
