@@ -7,3 +7,5 @@ const texto = `CPF dos aprovados:
 
 const regex = /\d.+\d/g;
 console.log(texto.match(regex));
+
+console.log(texto.match(/\d{3}\.\d{3}\.\d{3}-\d{2}/g));
