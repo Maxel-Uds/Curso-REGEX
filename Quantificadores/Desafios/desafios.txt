@@ -1,0 +1,18 @@
+//desafioCPF.js
+`CPF dos aprovados: 
+    - 600.567.890-12
+    - 765.998.345-23
+    - 234.634.908-45
+    - 456.342.889-56
+    - 675.789.203-09`
+
+//desafioTelefone.js
+`Lista telêfonica: 
+    - (11) 98756-1212
+    - 98765-4321`
+
+//desafioEmail.js
+`Emails dos convidados:
+ - fulano@cod3r.com.br
+ - chico@gmail.com
+ - maxellopes32@gmail.com`
