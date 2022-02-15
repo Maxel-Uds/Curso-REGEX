@@ -1,0 +1,10 @@
+const texto = `Emails dos convidados:
+- fulano@cod3r.com.br
+- chico@gmail.com
+- maxellopes32@gmail.com
+- joao@empresa.info.br
+- maria_silva@registro.br
+- rafa.sampaio@yahoo.com
+- fulano+de+tal@escola.ninja.br`;
+
+console.log(texto.match(/\S+@\w+\.\w{2,6}(\.\w{2})?/g));
